@@ -1,4 +1,4 @@
-import motif_finder_utils
+import motif_finder_utils_noise
 import time
 import parameters
 
@@ -12,16 +12,14 @@ def find_motifs():
             sc = parameters.params_list[i][1]
             sl = parameters.params_list[i][2]
 
+
             start_time = time.perf_counter()
             file_name = str(ml) + "_" + str(sc) + "_" + str(sl) + "_" + str(k)
-            
-            sl,sequences = motif_finder_utils.get_sequences_from_file(file_name)
-        
-            possible_motifs = motif_finder_utils.create_possible_motifs(sl,ml,sequences)
-            possible_motifs = motif_finder_utils.find_motif(possible_motifs, sequences, sl, ml)
-            positions_of_motif = motif_finder_utils.get_sites(sl,ml,possible_motifs, sequences)
+            sl,sequences = motif_finder_utils_noise.get_sequences_from_file(file_name)
 
-            motif_finder_utils.create_output_files(possible_motifs, ml,len(sequences),sl, k, positions_of_motif)
+            motif,positions_of_motif = motif_finder_utils_noise.find_motif(sequences, sl, ml)
+
+            motif_finder_utils_noise.create_output_files(motif, ml,len(sequences),sl, k, positions_of_motif)
             end_time = time.perf_counter()
 
             # Calculate the duration and print
@@ -30,6 +28,7 @@ def find_motifs():
     return run_time_stats
 
 
+find_motifs()
 
 
 

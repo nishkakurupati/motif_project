@@ -26,14 +26,27 @@ def insert_motif(sequences, motif, ml, sc, sl):
     """Inside each sequence insert motif in random position"""
     positions_of_motif = []
     for i in range (sc):
+        choose = random.randint(0,100)
+        if choose < 20:
+            positions_of_motif.append(-1)
+            continue
         sequence = sequences[i]
+        choose2 = random.randint(0,100)
+
+        if choose2 < 20:
+            switch = random.randint(0,ml-1)
+            nucleotide_list_copy = ['A','T', 'C', 'G']
+            nucleotide_list_copy.remove(motif[switch])
+            final_motif = motif[0:switch] + random.choice(nucleotide_list_copy) + motif[switch +1:ml]
+        else:
+            final_motif = motif
         start_index = random.randint(0, sl-ml)
         positions_of_motif.append(start_index)
         end_index = start_index + ml
 
         first_half = sequence[:start_index] 
         second_half = sequence[end_index:]
-        new_sequence = first_half + motif + second_half
+        new_sequence = first_half + final_motif + second_half
 
         sequences[i] = new_sequence
     return sequences, positions_of_motif
@@ -49,7 +62,7 @@ def create_files(ml,sc,sl, index):
 
     filename = start_name + "sequences.fa"
     file_obj = open(filename, 'w')
-
+    sum = 0
     for i in range (sc):
         file_obj.write((sequences[i]) + "\n")
     file_obj.close()
@@ -58,6 +71,7 @@ def create_files(ml,sc,sl, index):
     file_obj = open(filename, 'w')
     for i in range (sc):
         file_obj.write(str(positions_of_motif[i]) + "\n")
+    
     file_obj.close()
 
     filename = start_name  + "motif.txt"

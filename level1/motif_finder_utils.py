@@ -1,11 +1,13 @@
+"""
 def get_ml_from_file(file_name):
-    """Finding length of motif"""
+    #Finding length of motif
     filename = 'data_set/file_' + file_name + "motif_length.txt"
     file_obj = open(filename, 'r')
     for line in file_obj:
-	    ml = int(line)
+        ml = int(line)
     file_obj.close()
     return ml
+"""
 
 
 def get_sequences_from_file(file_name):
@@ -65,9 +67,8 @@ def get_sites(sl,ml,motif, sequences):
     positions_of_motif = []
     for k in range (len(sequences)):
         sequence = sequences[k]
-        position = 0
         for i in range (sl - ml + 1):
-            pos_motif = sequences[k][i:i + ml]
+            pos_motif = sequence[i:i + ml]
             if pos_motif == motif:
                 positions_of_motif.append(i)
                 break
