@@ -1,0 +1,22 @@
+import motif_benchmark_ppm
+import parameters
+
+
+def check_acc():
+    motif_match_stats = []
+    sites_match_stats = []
+
+    for k in range (10):
+        for i in range (len(parameters.params_list)):
+            ml = parameters.params_list[i][0]
+            sc = parameters.params_list[i][1]
+            sl = parameters.params_list[i][2]
+
+            ppm_score = motif_benchmark_ppm.compare_ppm(ml,sc,sl,k)
+
+            full_site_match, site_matches = motif_benchmark_ppm.compare_sites(ml,sc,sl,k)
+
+            motif_match_stats.append([ml, sl, sc, k, ppm_score])
+            sites_match_stats.append([ml, sl, sc, k, site_matches])
+
+    return motif_match_stats, sites_match_stats

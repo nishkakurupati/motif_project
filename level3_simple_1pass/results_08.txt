@@ -1,0 +1,100 @@
+Running 1 of 7, k=0  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=0  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=0  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=0  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=0  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=0  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=0  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=1  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=1  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=1  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=1  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=1  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=1  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=1  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=2  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=2  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=2  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=2  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=2  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=2  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=2  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=3  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=3  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=3  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=3  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=3  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=3  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=3  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=4  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=4  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=4  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=4  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=4  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=4  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=4  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=5  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=5  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=5  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=5  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=5  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=5  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=5  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=6  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=6  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=6  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=6  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=6  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=6  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=6  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=7  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=7  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=7  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=7  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=7  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=7  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=7  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=8  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=8  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=8  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=8  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=8  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=8  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=8  (ml=8, sc=10, sl=2000)
+Running 1 of 7, k=9  (ml=6, sc=10, sl=500)
+Running 2 of 7, k=9  (ml=7, sc=10, sl=500)
+Running 3 of 7, k=9  (ml=8, sc=10, sl=500)
+Running 4 of 7, k=9  (ml=8, sc=5, sl=500)
+Running 5 of 7, k=9  (ml=8, sc=20, sl=500)
+Running 6 of 7, k=9  (ml=8, sc=10, sl=1000)
+Running 7 of 7, k=9  (ml=8, sc=10, sl=2000)
+--------Runtime Stats-----------
+ml 6 average stats  0.8819780582794919
+ml 7 average stats  1.0135214126901702
+ml 8 average stats  1.1384147249395027
+sl 500 average stats  1.1384147249395027
+sl 1000 average stats  4.572876745625399
+sl 2000 average stats  18.4838909041835
+sc 5 average stats  1.126816845824942
+sc 10 average stats  1.1384147249395027
+sc 20 average stats  1.180738212633878
+--------Accuracy Stats-----------
+ml 6 average stats  15.901150782772131
+ml 7 average stats  17.97397363931743
+ml 8 average stats  18.456191856683695
+sl 500 average stats  18.456191856683695
+sl 1000 average stats  18.98895116164005
+sl 2000 average stats  19.267212701376042
+sc 5 average stats  21.650108372797682
+sc 10 average stats  18.456191856683695
+sc 20 average stats  17.632068065597228
+--------Motif Sites Stats-----------
+ml 6 average stats  0.0
+ml 7 average stats  0.0
+ml 8 average stats  0.0
+sl 500 average stats  0.0
+sl 1000 average stats  0.0
+sl 2000 average stats  0.0
+sc 5 average stats  0.0
+sc 10 average stats  0.0
+sc 20 average stats  0.0

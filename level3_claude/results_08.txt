@@ -1,0 +1,100 @@
+Running 0 of 7, k=0  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=0  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=0  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=0  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=0  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=0  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=0  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=1  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=1  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=1  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=1  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=1  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=1  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=1  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=2  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=2  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=2  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=2  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=2  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=2  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=2  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=3  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=3  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=3  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=3  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=3  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=3  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=3  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=4  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=4  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=4  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=4  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=4  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=4  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=4  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=5  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=5  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=5  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=5  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=5  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=5  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=5  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=6  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=6  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=6  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=6  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=6  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=6  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=6  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=7  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=7  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=7  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=7  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=7  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=7  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=7  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=8  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=8  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=8  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=8  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=8  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=8  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=8  (ml=8, sc=10, sl=2000)
+Running 0 of 7, k=9  (ml=6, sc=10, sl=500)
+Running 1 of 7, k=9  (ml=7, sc=10, sl=500)
+Running 2 of 7, k=9  (ml=8, sc=10, sl=500)
+Running 3 of 7, k=9  (ml=8, sc=5, sl=500)
+Running 4 of 7, k=9  (ml=8, sc=20, sl=500)
+Running 5 of 7, k=9  (ml=8, sc=10, sl=1000)
+Running 6 of 7, k=9  (ml=8, sc=10, sl=2000)
+--------Runtime Stats-----------
+ml 6 average stats  8.810282816877589
+ml 7 average stats  9.20231073317118
+ml 8 average stats  10.507817195681856
+sl 500 average stats  10.507817195681856
+sl 1000 average stats  11.455612108437345
+sl 2000 average stats  11.78533978741616
+sc 5 average stats  5.493336091702804
+sc 10 average stats  10.507817195681856
+sc 20 average stats  20.436642787465825
+--------Accuracy Stats-----------
+ml 6 average stats  15.302562976261644
+ml 7 average stats  11.834885168850356
+ml 8 average stats  14.260261709675254
+sl 500 average stats  14.260261709675254
+sl 1000 average stats  19.681646266846382
+sl 2000 average stats  20.732418147361276
+sc 5 average stats  18.864788216689853
+sc 10 average stats  14.260261709675254
+sc 20 average stats  4.152171712889881
+--------Motif Sites Stats-----------
+ml 6 average stats  0.05
+ml 7 average stats  0.14
+ml 8 average stats  0.2
+sl 500 average stats  0.2
+sl 1000 average stats  0.0
+sl 2000 average stats  0.0
+sc 5 average stats  0.08
+sc 10 average stats  0.2
+sc 20 average stats  0.49
